@@ -8,6 +8,6 @@ policy:
     PolicyCombiningAlgId="urn:oasis:names:tc:xacml:1.0:policy-combining-algorithm:first-applicable"
     PolicySetId="http://axiomatics.com/alfa/identifier/poc.main" Version="1.0" xmlns:xacml3="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17"><xacml3:Description>Main</xacml3:Description><xacml3:PolicySetDefaults><xacml3:XPathVersion>http://www.w3.org/TR/1999/REC-xpath-19991116</xacml3:XPathVersion></xacml3:PolicySetDefaults><xacml3:Target/><xacml3:Policy
     PolicyId="http://axiomatics.com/alfa/identifier/poc.main.Red" RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:first-applicable"
-    Version="1.0"><xacml3:Description>Deny</xacml3:Description><xacml3:PolicyDefaults><xacml3:XPathVersion>http://www.w3.org/TR/1999/REC-xpath-19991116</xacml3:XPathVersion></xacml3:PolicyDefaults><xacml3:Target/><xacml3:Rule
-    Effect="Deny" RuleId="poc.main.Red#rule_1"><xacml3:Description/><xacml3:Target/></xacml3:Rule></xacml3:Policy></xacml3:PolicySet>
+    Version="1.0"><xacml3:Description>Permit</xacml3:Description><xacml3:PolicyDefaults><xacml3:XPathVersion>http://www.w3.org/TR/1999/REC-xpath-19991116</xacml3:XPathVersion></xacml3:PolicyDefaults><xacml3:Target/><xacml3:Rule
+    Effect="Permit" RuleId="poc.main.Red#rule_1"><xacml3:Description/><xacml3:Target/></xacml3:Rule></xacml3:Policy></xacml3:PolicySet>
 attributeConnectors: {}
